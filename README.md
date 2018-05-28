@@ -1,2 +1,7 @@
 # sphinx_live_preview
-Html live preview python script for sphinx (reStructuredText), supports math rendering, any IDE
+Python script for html live preview for sphinx (reStructuredText), including math re-rendering. Should support any platform and any IDE with autosave.
+
+You are welcome to modify the script to suit your needs!
+
+## Step 1
+Copy the script 

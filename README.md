@@ -19,7 +19,7 @@ For Windows system, you can also copy the **preview.bat** to the folder; it is v
 
 Install selenium (https://pypi.org/project/selenium/) for python by
 
-$pip install -U selenium
+>pip install -U selenium
 
 Go to https://www.seleniumhq.org/download/ to download a driver for your browser, e.g. Google Chrome Driver. Put it to any folder you like, and just remember the path.
 
@@ -40,7 +40,7 @@ For **Atom**, install the Autosave Onchange plugin https://atom.io/packages/auto
 
 Open the script **rst_preview.py**, put in correct browser driver type and path, and adjust other options as you need. Now run the script by simply clicking the batch file (preview.bat on Windows), or manually execute the command in terminal
 
-$python rst_preview.py
+>python rst_preview.py
 
 A browser will be opened. No need to do anything else. Go to the file you need to edit in the IDE, make changes, the browser will response accordingly!
 

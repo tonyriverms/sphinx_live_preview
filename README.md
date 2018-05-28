@@ -1,4 +1,4 @@
-# Sphinx Live Preview
+# Sphinx (reStructuredText) Live Preview Script
 Python script for html live preview for sphinx (reStructuredText), including math re-rendering. Should support any platform and any IDE with autosave.
 
 This one simply monitors file changes, recompile them using sphinx, and then re-render the page in the browser. You are welcome to improve and modify the script to suit your needs!

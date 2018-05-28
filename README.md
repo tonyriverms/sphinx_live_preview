@@ -3,7 +3,7 @@ Python script for html live preview for sphinx (reStructuredText), including mat
 
 I see this is badly needed in many places. However, current previews using their own renderers either do not support full-featured sphinx (restview https://github.com/mgedmin/restview), or has other issues (https://www.restructuredtext.net/, currently cannot properly render math, clicking on anchor links breaks preview, only works for VS Code ...).
 
-This one simply monitors file changes, recompile them using sphinx (so full-featured!), and then re-render the page in the browser. You  can use any IDE you like. You are welcome to improve and modify the script to suit your needs!
+This one simply monitors file changes, recompile them using sphinx (so full-featured!), and then re-render the page in the browser. You  can use any IDE you like. You are welcome to improve or modify this script anyway you like!
 
 Help needed: 1) help improve the file monitoring process to reduce unnecessary file checking, like using Watchdog? 2) help make the update more efficient; 3) any other tweaks are welcome!
 
@@ -11,7 +11,7 @@ Help needed: 1) help improve the file monitoring process to reduce unnecessary f
 
 Copy the python script **rst_preview.py** to your sphinx project root folder (e.g. created by sphinx-quickstart, see here http://www.sphinx-doc.org/en/1.6/tutorial.html).
 
-**NOTE**: for this script, your project need to have separate folders "build" and "html" to store the source rst files and output HTML files. You are asked to make this choice when going through the sphinx-quickstart command.
+**NOTE**: for the original script, your project need to have separate folders "build" and "html" to store the source rst files and output HTML files. You are asked to make this choice when going through the sphinx-quickstart command. If you don't like this restriction, you can modify the python script to meet your needs.
 
 For Windows system, you can also copy the **preview.bat** to the folder; it is very simple, just executing the python file. For orther OS, creat yourself such a simple batch command.
 

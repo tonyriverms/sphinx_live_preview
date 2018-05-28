@@ -42,6 +42,6 @@ Open the script **rst_preview.py**, put in correct browser driver type and path,
 
 >python rst_preview.py
 
-A browser will be opened. No need to do anything else. Go to the file you need to edit in the IDE, make changes, the browser will response accordingly!
+A browser will be opened. No need to do anything else. Go to the file you need to edit in the IDE, make changes, the browser will automatically open the page that is under editing, and update it on the fly when change is made!
 
 

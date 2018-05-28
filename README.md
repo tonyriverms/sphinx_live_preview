@@ -1,7 +1,7 @@
 # Sphinx (reStructuredText) Live Preview Script
 Python script for html live preview for sphinx (reStructuredText), including math re-rendering. Should support any platform and any IDE (best with autosave).
 
-I see this is badly needed in many places. However, current previews using their own renderers either do not support full-featured sphinx (restview https://github.com/mgedmin/restview), or has other issues (https://www.restructuredtext.net/, currently cannot properly render math, clicking on anchor link breaks preview, only works for VS code...).
+I see this is badly needed in many places. However, current previews using their own renderers either do not support full-featured sphinx (restview https://github.com/mgedmin/restview), or has other issues (https://www.restructuredtext.net/, currently cannot properly render math, clicking on anchor links breaks preview ...).
 
 This one simply monitors file changes, recompile them using sphinx (so full-featured!), and then re-render the page in the browser. You are welcome to improve and modify the script to suit your needs!
 

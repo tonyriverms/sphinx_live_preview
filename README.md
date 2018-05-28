@@ -1,11 +1,17 @@
 # Sphinx (reStructuredText) Live Preview Script
-Python script for html live preview for sphinx (reStructuredText), including math re-rendering. Should support any platform and any IDE with autosave.
+Python script for html live preview for sphinx (reStructuredText), including math re-rendering. Should support any platform and any IDE (best with autosave).
 
-This one simply monitors file changes, recompile them using sphinx, and then re-render the page in the browser. You are welcome to improve and modify the script to suit your needs!
+I see this is badly needed in many places. However, current previews using their own renderers either do not support full-featured sphinx (restview https://github.com/mgedmin/restview), or has other issues (https://www.restructuredtext.net/en/latest/, currently cannot properly render math, clicking on anchor link breaks preview, only works for VS code...).
+
+This one simply monitors file changes, recompile them using sphinx (so full-featured!), and then re-render the page in the browser. You are welcome to improve and modify the script to suit your needs!
+
+Help needed: 1) help improve the file monitoring process to reduce unnecessary file checking, like using Watchdog? 2) help make the update more efficient; 3) any other tweaks are welcome!
 
 ## Step 1
 
 Copy the python script **rst_preview.py** to your sphinx project folder (e.g. created by sphinx-quickstart, see here http://www.sphinx-doc.org/en/1.6/tutorial.html).
+
+**NOTE**: for this script, your project need to have separate folders "build" and "html" to store the source rst files and output HTML files. You are asked to make this choice when going through the sphinx-quickstart command.
 
 For Windows system, you can also copy the **preview.bat** to the folder; it is very simple, just executing the python file. For orther OS, creat yourself such a simple batch command.
 

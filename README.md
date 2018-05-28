@@ -9,7 +9,7 @@ Help needed: 1) help improve the file monitoring process to reduce unnecessary f
 
 ## Step 1
 
-Copy the python script **rst_preview.py** to your sphinx project folder (e.g. created by sphinx-quickstart, see here http://www.sphinx-doc.org/en/1.6/tutorial.html).
+Copy the python script **rst_preview.py** to your sphinx project root folder (e.g. created by sphinx-quickstart, see here http://www.sphinx-doc.org/en/1.6/tutorial.html).
 
 **NOTE**: for this script, your project need to have separate folders "build" and "html" to store the source rst files and output HTML files. You are asked to make this choice when going through the sphinx-quickstart command.
 

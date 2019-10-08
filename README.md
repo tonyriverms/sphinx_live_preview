@@ -13,7 +13,7 @@ Copy the python script **rst_preview.py** to your sphinx project root folder (e.
 
 **NOTE**: for the original script, your project need to have separate folders "build" and "html" to store the source rst files and output HTML files. You are asked to make this choice when going through the sphinx-quickstart command. If you don't like this restriction, you can modify the python script to meet your needs.
 
-For Windows system, you can also copy the **preview.bat** to the folder; it is very simple, just executing the python file. For orther OS, creat yourself such a simple batch command.
+For Windows system, you can also copy the **preview.bat** to the folder; it is very simple, just executing the python file. For orther OS, create yourself such a simple batch command.
 
 ## Step 2
 
